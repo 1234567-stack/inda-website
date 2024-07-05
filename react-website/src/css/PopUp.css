@@ -1,0 +1,33 @@
+/* Ensure the popup container covers the whole screen */
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5); /* Black background with some transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure the popup is above other content */
+  }
+  
+  /* Style the popup window */
+  .popup-window {
+    background: #000; /* Black background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff; /* White text color */
+    width: 800px; /* Fixed width */
+    height: 500px;
+    max-width: 80%; /* Ensure it doesn't exceed 80% of the viewport width */
+    margin: 0 auto;
+  }
+  
+  /* Style for the paragraph within the popup */
+  .popup-window p {
+    margin: 0;
+    font-size: 1.2em;
+  }

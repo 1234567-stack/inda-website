@@ -1,0 +1,78 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  
+  .education-container {
+    background: url('../Assets/image1.JPG') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .projects-container{
+    background: url('../Assets/image.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-rows: repeat(4, 1fr); /* 2 equal rows */
+    gap: 10px; /* Optional: Adds space between the items */
+    width: 100%;
+    height: 100vh; /* Adjust height as needed */
+  }
+
+  
+  .grid-item {
+    
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center
+
+    
+  }
+  
+
+  .rcorners {
+  
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    
+  }
+
+  .experience-container {
+    background: url('../Assets/image2.jpg') center center/cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+  
